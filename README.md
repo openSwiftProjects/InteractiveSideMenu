@@ -53,7 +53,7 @@ Also, ensure that every menu item ViewController adopts relevant protocol.
 
 ## HostViewController implementation
 To setup your side menu you need to do three things:
-- Provide implementation of base ```MenuViewController``` and assing it to  ```menuViewController``` property
+- Provide implementation of base ```MenuViewController``` and adding it to  ```menuViewController``` property
 - Provide implementation of menu content and assing array of content controllers to ```contentViewControllers``` property
 - Select initial content controller by calling ```selectContentViewController(_ selectedContentVC: MenuItemContentViewController)```
 
